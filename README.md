@@ -84,4 +84,12 @@ To remove: run `uninstall.bat` as Administrator.
 | `Activate.ps1` | 一键编译 + 注册 + 激活 |
 | `uninstall.bat` | 清理注销 + 注册表清除 |
 
+---
+
+## 致谢 / Acknowledgments
+
+本项目部分设计参考了 [NothingData/ProcreateViewer](https://github.com/NothingData/ProcreateViewer)，特此感谢。
+
+Portions of this project were inspired by [NothingData/ProcreateViewer](https://github.com/NothingData/ProcreateViewer). Our sincere thanks to the original author.
+
 
