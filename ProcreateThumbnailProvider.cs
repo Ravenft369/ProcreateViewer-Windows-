@@ -280,8 +280,7 @@ namespace ProcreateThumbnailProvider
         {
             try
             {
-                string codeBase = "file:///" + type.Assembly.CodeBase
-                    .Replace('\\', '/').Replace("file:///", "file:///");
+                string codeBase = type.Assembly.CodeBase.Replace('\\', '/');
 
                 using (var k = Registry.ClassesRoot.CreateSubKey(
                     @"CLSID\" + CLSID_REG + @"\InprocServer32"))
